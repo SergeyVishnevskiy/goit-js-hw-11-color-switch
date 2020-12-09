@@ -26,7 +26,7 @@ const clickButtonStart = () => {
   }
   isButtonStatus = true;
   timerId = setInterval(() => {
-    const colorBody = randomIntegerFromInterval(0, 2);
+    const colorBody = randomIntegerFromInterval(0, 5);
     bodyRef.style.backgroundColor = colors[colorBody];
   }, 1000);
 };
